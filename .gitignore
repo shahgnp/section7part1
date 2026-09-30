@@ -1,0 +1,4 @@
+# SonarQube / SonarScanner temporary directories
+.sonar/
+.scannerwork/
+**/.scannerwork/

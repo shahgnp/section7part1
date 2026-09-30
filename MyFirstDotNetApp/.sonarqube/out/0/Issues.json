@@ -1,0 +1,1385 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "42.42.42.42",
+        "fileVersion": "5.0.0-dev (<developer build>)",
+        "semanticVersion": "42.42.42",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'SqlConnection' is obsolete: 'Use the Microsoft.Data.SqlClient package instead.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 19,
+                  "endLine": 44,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'SqlConnection' is obsolete: 'Use the Microsoft.Data.SqlClient package instead.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 50,
+                  "endLine": 44,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'SqlCommand' is obsolete: 'Use the Microsoft.Data.SqlClient package instead.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 19,
+                  "endLine": 48,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'SqlCommand' is obsolete: 'Use the Microsoft.Data.SqlClient package instead.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 44,
+                  "endLine": 48,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'SqlDataReader' is obsolete: 'Use the Microsoft.Data.SqlClient package instead.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 19,
+                  "endLine": 52,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'unusedValue' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 17,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 20,
+                  "endLine": 226,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Add' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 16,
+                  "endLine": 5,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Divide' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 19,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ConnectToDatabase' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 21,
+                  "endLine": 16,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Subtract' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'Multiply' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'ProcessUser'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 21,
+                  "endLine": 152,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 21,
+                  "endLine": 144,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Update this method so that its implementation is not identical to 'ProcessAdmin'."
+            }
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'UseApiKey' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 21,
+                  "endLine": 30,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2077",
+          "level": "warning",
+          "message": "Use a parameterized query instead of string formatting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 40,
+                  "endLine": 48,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 20,
+                  "endLine": 46,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "SQL Query is dynamically formatted and assigned to query."
+            }
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'FindUser' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 21,
+                  "endLine": 40,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'Subtract' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'Divide' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 19,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'Multiply' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 16,
+                  "endLine": 15,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'Add' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 16,
+                  "endLine": 5,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'UseApiKey' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 21,
+                  "endLine": 30,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'FindUser' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 21,
+                  "endLine": 40,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ConnectToDatabase' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 21,
+                  "endLine": 16,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4790",
+          "level": "warning",
+          "message": "Use a stronger hashing algorithm.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 29,
+                  "endLine": 65,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ProcessUser' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 21,
+                  "endLine": 144,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GetUserStatus' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 23,
+                  "endLine": 76,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GetUsernameLength' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 20,
+                  "endLine": 105,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GetUserStatus' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 23,
+                  "endLine": 76,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ProcessUser' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 21,
+                  "endLine": 144,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GetUsernameLength' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 20,
+                  "endLine": 105,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Use a cryptographically strong random number generator.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 29,
+                  "endLine": 177,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GenerateHash' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 23,
+                  "endLine": 63,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'GenerateToken' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 23,
+                  "endLine": 175,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ProcessAdmin' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 21,
+                  "endLine": 152,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ProcessAdmin' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 21,
+                  "endLine": 152,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'CalculateSomething' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 21,
+                  "endLine": 163,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'SendRequest' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 21,
+                  "endLine": 185,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'CallExternalService' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 21,
+                  "endLine": 130,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'IsProduction' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 21,
+                  "endLine": 208,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'IsProduction' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 21,
+                  "endLine": 208,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'CalculateSomething' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 21,
+                  "endLine": 163,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'SendRequest' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 21,
+                  "endLine": 185,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 26,
+                  "endLine": 134,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'unusedValue'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 17,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ReadFile' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 21,
+                  "endLine": 113,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'DeserializeData' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 23,
+                  "endLine": 221,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'CallExternalService' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 21,
+                  "endLine": 130,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1850",
+          "level": "note",
+          "message": "Prefer static 'System.Security.Cryptography.MD5.HashData' method over 'ComputeHash'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 32,
+                  "endLine": 68,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 23,
+                  "endLine": 65,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ComputeTypePropertyKey": "ComputeHash",
+              "DeleteHashCreationPropertyKey": "DeleteHashCreationPropertyKey",
+              "HashCreationIndexPropertyKey": "0",
+              "TargetHashTypeDiagnosticPropertyKey": "MD5"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GenerateHash' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 23,
+                  "endLine": 63,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'IsEligible' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 21,
+                  "endLine": 195,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'DeserializeData' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 23,
+                  "endLine": 221,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ReadFile' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 21,
+                  "endLine": 113,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'IsEligible' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 21,
+                  "endLine": 195,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GenerateToken' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 23,
+                  "endLine": 175,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1850": {
+          "id": "CA1850",
+          "shortDescription": "Prefer static 'HashData' method over 'ComputeHash'",
+          "fullDescription": "It is more efficient to use the static 'HashData' method over creating and managing a HashAlgorithm instance to call 'ComputeHash'.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1850",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "Variable is assigned but its value is never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Possible null reference return.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1075": {
+          "id": "S1075",
+          "shortDescription": "URIs should not be hardcoded",
+          "fullDescription": "Hard-coding a URI makes it difficult to test a program for a variety of reasons:",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2077": {
+          "id": "S2077",
+          "shortDescription": "SQL queries should not be dynamically formatted",
+          "fullDescription": "Dynamically building SQL query strings can result in broken SQL syntax and open SQL injection attacks.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Pseudorandom number generators (PRNGs) should not be used in security contexts",
+          "fullDescription": "Pseudorandom number generators (PRNGs) produce sequences that only approximate true randomness and are not suitable for security-sensitive contexts.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2325": {
+          "id": "S2325",
+          "shortDescription": "Methods and properties that don't access instance data should be static",
+          "fullDescription": "Methods and properties that don’t access instance data should be marked as static for the following reasons:",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4144": {
+          "id": "S4144",
+          "shortDescription": "Methods should not have identical implementations",
+          "fullDescription": "Two methods having the same implementation are suspicious. It might be that something else was intended. Or the duplication is intentional, which becomes a maintenance burden.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4790": {
+          "id": "S4790",
+          "shortDescription": "Weak hashing algorithms should not be used",
+          "fullDescription": "Using a weak hashing algorithm to protect sensitive data can compromise the security guarantees the hash is meant to provide.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Critical Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+‚Ru/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/MyFirstDotNetApp.Tests.csprojòCSharp14

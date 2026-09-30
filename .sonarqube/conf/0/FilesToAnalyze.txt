@@ -1,0 +1,6 @@
+﻿/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs
+/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Program.cs
+/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs
+/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/.gitignore
+/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/coverage.opencover.xml
+/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/coverage.xml

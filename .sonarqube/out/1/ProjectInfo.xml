@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>MyFirstDotNetApp</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>2be5c767-b36c-4bf6-b186-468aa32298a6</ProjectGuid>
+  <FullPath>/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/MyFirstDotNetApp.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/conf/1/FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/1/Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/1</Property>
+    <Property Name="sonar.cs.scanner.telemetry">/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/1/Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net10.0</TargetFramework>
+</ProjectInfo>

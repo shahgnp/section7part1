@@ -1,0 +1,184 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.3"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1790748805000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "hitachi-developers_gauravshahfromnepal-repo_88ffa0cb-b9cb-404e-84ab-1d689404cc2e"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "C675A675-D4A1-476E-A179-70856C6A91A1,2BE5C767-B36C-4BF6-B186-468AA32298A6,6EB3BCB6-3D57-46ED-9763-383995CB1BCF"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.projectKey",
+      "value": "hitachi-developers_gauravshahfromnepal-repo_88ffa0cb-b9cb-404e-84ab-1d689404cc2e:C675A675-D4A1-476E-A179-70856C6A91A1"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.projectName",
+      "value": "MyFirstDotNetApp"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.projectBaseDir",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.working.directory",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/.sonar/mod0"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.sources",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Calculator.cs,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/Program.cs,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/SonarQubeDemo.cs,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/.gitignore,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/coverage.opencover.xml,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/coverage.xml,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/obj/project.assets.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/obj/MyFirstDotNetApp.csproj.nuget.dgspec.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/obj/Debug/net10.0/MyFirstDotNetApp.sourcelink.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/bin/Debug/net10.0/MyFirstDotNetApp.deps.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp/bin/Debug/net10.0/MyFirstDotNetApp.runtimeconfig.json"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.cs.analyzer.projectOutPaths",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/0"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.cs.roslyn.reportFilePaths",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/0/Issues.json"
+    },
+    {
+      "key": "C675A675-D4A1-476E-A179-70856C6A91A1.sonar.cs.scanner.telemetry",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/0/Telemetry.json"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.projectKey",
+      "value": "hitachi-developers_gauravshahfromnepal-repo_88ffa0cb-b9cb-404e-84ab-1d689404cc2e:2BE5C767-B36C-4BF6-B186-468AA32298A6"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.projectName",
+      "value": "MyFirstDotNetApp"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.projectBaseDir",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.working.directory",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/.sonar/mod1"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.cs.analyzer.projectOutPaths",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/1"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.cs.roslyn.reportFilePaths",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/1/Issues.json"
+    },
+    {
+      "key": "2BE5C767-B36C-4BF6-B186-468AA32298A6.sonar.cs.scanner.telemetry",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/1/Telemetry.json"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.projectKey",
+      "value": "hitachi-developers_gauravshahfromnepal-repo_88ffa0cb-b9cb-404e-84ab-1d689404cc2e:6EB3BCB6-3D57-46ED-9763-383995CB1BCF"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.projectName",
+      "value": "MyFirstDotNetApp.Tests"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.projectBaseDir",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.working.directory",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/.sonar/mod2"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.tests",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/obj/project.assets.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/obj/MyFirstDotNetApp.Tests.csproj.nuget.dgspec.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/obj/Debug/net10.0/MyFirstDotNetApp.Tests.sourcelink.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/bin/Debug/net10.0/MyFirstDotNetApp.deps.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/bin/Debug/net10.0/MyFirstDotNetApp.runtimeconfig.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/bin/Debug/net10.0/MyFirstDotNetApp.Tests.deps.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/bin/Debug/net10.0/MyFirstDotNetApp.Tests.runtimeconfig.json,/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/MyFirstDotNetApp.Tests/CalculatorTests.cs"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.cs.analyzer.projectOutPaths",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/2"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.cs.roslyn.reportFilePaths",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/2/Issues.json"
+    },
+    {
+      "key": "6EB3BCB6-3D57-46ED-9763-383995CB1BCF.sonar.cs.scanner.telemetry",
+      "value": "/home/shahgnp/startsml_work_dir/hitachi/developer/section7/part1/.sonarqube/out/2/Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "https://sonarqube.startsml.com"
+    },
+    {
+      "key": "sonar.verbose",
+      "value": "true"
+    },
+    {
+      "key": "sonar.scanner.skipJreProvisioning",
+      "value": "true"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}
