@@ -2,9 +2,7 @@
 
 ## Add code coverage testing dependency
 
-```bash
-cd ../
-```
+From `parent directory` for `MyFirstDotNetApp`
 
 ```bash
 dotnet new xunit -n MyFirstDotNetApp.Tests
@@ -15,9 +13,7 @@ dotnet add MyFirstDotNetApp.Tests/MyFirstDotNetApp.Tests.csproj reference MyFirs
 ```bash
 dotnet list MyFirstDotNetApp.Tests/MyFirstDotNetApp.Tests.csproj reference
 ```
-```bash
-cd MyFirstDotNetApp
-```
+
 ```bash
 Delete the file MyFirstDotNetApp.Tests/UnitTest1.cs
 ```
@@ -56,6 +52,7 @@ public class Calculator
 ```
 
 In `MyFirstDotNetApp.Tests/CalculatorTests.cs`
+
 ```cs
 using MyFirstDotNetApp;
 
@@ -115,23 +112,15 @@ Inside `MyFirstDotNetApp`
 dotnet restore
 ```
 
-## Build the Application 
+## Initiate SAST
 
 From `parent directory` for `MyFirstDotNetApp`
 
 ```bash
-dotnet build MyFirstDotNetApp/MyFirstDotNetApp.csproj
-```
-```bash
-dotnet test MyFirstDotNetApp.Tests/MyFirstDotNetApp.Tests.csproj
-```
-## Initiate SAST
-
-```bash
 dotnet sonarscanner begin \
-    /k:"MyFirstDotNetApp" \
-    /d:sonar.host.url="$SONAR_HOST" \
-    /d:sonar.token="$SONAR_TOKEN" \
+    /k:"<Project-Key>" \
+    /d:sonar.host.url="<SONAR_HOST>" \
+    /d:sonar.token="<SONAR_TOKEN>" \
     /d:sonar.cs.vscoveragexml.reportsPaths="coverage.xml"
     /d:verbose=true
     /d:skipJreProvisioning=true
